@@ -1,0 +1,35 @@
+{
+  "name": "footballapi",
+  "version": "0.1.0",
+  "description": "Simple FastAPI based football API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server",
+    "lint": "npx eslint src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jopokemine/FootballApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jopokemine/FootballApi/issues"
+  },
+  "homepage": "https://github.com/jopokemine/FootballApi#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "js-yaml": "^4.1.0",
+    "node": "^19.4.0",
+    "prettier": "^2.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.4",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
